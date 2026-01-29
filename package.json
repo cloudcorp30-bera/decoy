@@ -5,9 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name BERA-TECH",
-    "stop": "pm2 stop BERA-TECH",
-    "restart": "pm2 restart BERA-TECH"
+    "start": "node index.js"
+    
   },
   "keywords": ["BERA-TECH", "whatsapp-bot", "whatsapp md bot"],
   "author": "BRUCE BERA",
